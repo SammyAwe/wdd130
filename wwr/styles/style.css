@@ -27,7 +27,7 @@ main section img{
 }
 body {
     background-color: #e36414;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, 'Roboto Serif';
     padding: 0;
     margin: 0;
 }
