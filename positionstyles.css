@@ -18,13 +18,13 @@
 } 
 .green1 {
   width: 200px; 
-  height: 100px; 
+  height: 200px; 
   background-color: green; 
 
 } 
 .yellow1 {
   width: 200px; 
-  height: 100px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue1 {
@@ -75,6 +75,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  grid-column-gap: 40px;
 }
 .red3 {
   width: 100%; 
@@ -83,13 +84,14 @@
   grid-column: 1/3;
 } 
 .green3 {
-  width: 420px; 
+  width: 100%; 
   height: 200px; 
   background-color: green;
-  justify-self: left;
+  
+  grid-column: 1/2;
 } 
 .yellow3 {
-  width: 420px; 
+  width: 100%; 
   height: 200px; 
   background-color: gold; 
   justify-self: right;
@@ -160,7 +162,8 @@ grid-column: 2/3;
 } 
 .yellow5 {
   width: 100%; 
-  height: 250px; 
+  height: 600px; 
+  min-height: 350px;
   background-color: gold; 
   
 
@@ -176,38 +179,49 @@ grid-column: 2/3;
   /* This is the parent of the activity 6 boxes. */
   width: 100%;
   height: 100%;
-  display: flex;
-  position: relative;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
 }
 .red6 {
   width: 300px; 
   height: 100px; 
   background-color: red; 
-  position: relative;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
 } 
 .blue6 {
   width: 300px; 
   height: 300px; 
   background-color: blue; 
-  position: absolute;
-  bottom: -250px;
-  left: 80px 
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 5;
+
+  
 }
 .green6 {
   width: 150px; 
   height: 150px; 
   background-color: green; 
-  position: absolute;
-  bottom: -300px;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 2;
   z-index: 15;
 } 
 .yellow6 {
   width: 150px; 
   height: 300px; 
   background-color: gold; 
-  position: absolute;
-  bottom: -300px;
-  left: 300px;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-column-start: 6;
+  grid-column-end: 6;
   z-index: 15;
 } 
 
