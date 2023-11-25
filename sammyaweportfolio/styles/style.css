@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Roboto+Slab&display=swap');
+
+#content {
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+nav a {
+    text-align: right;
+    color: #BCD3F2;
+    text-decoration: none;
+    padding: 60px;
+    box-shadow: 5px 5px 10px #BCD3F2;
+}
+#hero-msg h1 {
+    text-align: left;
+}
+body {
+    background-color: #182339;
+    font-family: 'Bevan', 'Roboto Slab';
+    padding: 0;
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+
+header {
+    background-color: #837A34;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #242524;
+    color: #fff;
+}
+
+#background {
+    background-color: #030e11;
+}
+.msg {
+    background-color: #837A34;
+    line-height: 1.5em;
+    padding: 35px;
+}
+footer {
+    background-color: #837A34;
+    color: #BCD3F2;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-title {
+    color: #fff;
+    font-family: 'Bevan';
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg p {
+    color: #fff;
+    font-size: .8em;
+    padding-bottom: 15px;
+    font-family: Roboto;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+#homeimage {
+    padding-top: 5px;
+    justify-self: left;
+    align-self: left;
+}
+.homeimg {
+    width: 200px;
+    box-shadow: 5px 5px 10px #BCD3F2;
+    transition: transform .5s;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+#hero-box {
+    grid-column: 2/2;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 1/2;
+}
+#hero-img {
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
+    color: #BCD3F2;
+}
+footer .social img{
+    padding-top: 15px;
+}
