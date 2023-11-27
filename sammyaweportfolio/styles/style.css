@@ -33,6 +33,7 @@ header {
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 nav a:hover {
     background-color: #242524;
@@ -58,7 +59,7 @@ footer {
 }
 .home-title {
     color: #BCD3F2;
-    font-family: 'Bevan';
+    font-family: 'Serif';
     font-size: 2em;
     margin-top: 10px;
 }
@@ -129,8 +130,9 @@ footer p a:hover {
     text-decoration: underline;
     color: #BCD3F2;
 }
-footer .social img{
+.social img{
     padding-top: 15px;
+    height: 68px;
 }
 
 @media screen and (max-width: 900px) {
