@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bevan&family=Roboto+Slab&display=swap');
 
+body {
+    background-color: #182339;
+    font-family:'Roboto Slab',Sans-Serif;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Bevan',Serif;
+}
 #content {
     max-width: 1600px; 
     margin: 0 auto;
@@ -11,16 +20,11 @@ nav a {
     padding: 60px;
     box-shadow: 5px 5px 10px #BCD3F2;
 }
-#hero-msg h1 {
-    text-align: left;
-    padding-left: 55px;
+#hero-msg{
+    grid-column: 1/2;
+    grid-row: 1;
 }
-body {
-    background-color: #182339;
-    font-family: 'Bevan', 'Roboto Slab';
-    padding: 0;
-    margin: 0;
-}
+
 h2{
     margin: 0;
 }
@@ -60,7 +64,6 @@ footer {
 }
 .home-title {
     color: #BCD3F2;
-    font-family: 'Serif';
     font-size: 2em;
     margin-top: 10px;
 }
@@ -68,7 +71,6 @@ footer {
     color: #fff;
     font-size: .8em;
     padding-bottom: 15px;
-    font-family: Roboto;
 }
 footer a {
     color: #fff;
@@ -81,7 +83,7 @@ footer a:hover {
 #homeimage {
     padding-top: 5px;
     justify-self: left;
-    align-items: left;
+    align-self: start;
 }
 .homeimg {
     width: 200px;
@@ -149,12 +151,6 @@ footer p a:hover {
 #aboutme-img {
     width: 90%;
     padding: 55px;
-}
-.aboutme-title {
-    font-family: 'Bevan';
-}
-h2 {
-    font-family: 'roboto slab';
 }
 main {
     display: grid;
