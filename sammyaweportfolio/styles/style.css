@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 nav a {
     text-align: right;
-    color: #BCD3F2;
+    color: #182339;
     text-decoration: none;
     padding: 60px;
     box-shadow: 5px 5px 10px #BCD3F2;
@@ -55,7 +55,7 @@ nav a:hover {
 }
 footer {
     background-color: #837A34;
-    color: #BCD3F2;
+    color: #182339;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -73,7 +73,7 @@ footer {
     padding-bottom: 15px;
 }
 footer a {
-    color: #fff;
+    color: #182339;
     text-decoration: none;
 }
 footer a:hover {
