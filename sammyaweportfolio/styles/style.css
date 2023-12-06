@@ -192,6 +192,10 @@ p {
     width: 100%;
     font-size: x-large;
 }
+a {
+    color: #BCD3F2;
+    font-style: italic;
+}
 #project2hero {
     grid-column: 2/2;
     padding: 40px;
